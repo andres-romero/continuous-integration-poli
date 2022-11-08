@@ -1,0 +1,30 @@
+.pantalla-cine {
+    background-color: rgb(47 49 50); 
+    width: 100% !important; 
+    height: 50px !important; 
+    border-radius: 10px;
+    color: white;
+    margin: 0 !important;
+    padding: 6% 10% 10% 40%;
+}
+.puesto-cine {
+    background-color: rgb(91, 136, 196);
+    width: 28px !important;
+    height: 35px !important;
+    border-radius: 5px;
+    margin: 0 !important;
+    color: white;
+    padding-top: 9px;
+    margin-left: -3px !important;
+    font-size: 14px;
+}
+
+.puesto-cine:active {
+    background-color: rgb(72 108 97); 
+    color: rgb(255, 255, 255);
+}
+
+.puesto-cine.ocupado {
+    background-color: rgb(72 108 97); 
+    color: rgb(255, 255, 255);
+}

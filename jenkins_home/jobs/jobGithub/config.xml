@@ -26,12 +26,7 @@
   <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
   <triggers/>
   <concurrentBuild>false</concurrentBuild>
-  <builders>
-    <hudson.tasks.BatchFile>
-      <command>echo [github enlazado con exito]</command>
-      <configuredLocalRules/>
-    </hudson.tasks.BatchFile>
-  </builders>
+  <builders/>
   <publishers/>
   <buildWrappers/>
 </project>

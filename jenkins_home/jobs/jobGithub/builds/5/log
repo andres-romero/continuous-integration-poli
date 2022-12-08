@@ -1,0 +1,19 @@
+Started by user [8mha:////4HY6tBXySCaiQ1viBN1pm5kMeqWzud9zj4kAYhgdnNJBAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAypEgYe/dLi1CL9xLyUotRiAJZQpbfBAAAA[0mCarlos Andres Romero Ortiz
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/jobGithub
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/jobGithub/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/andres-romero/continuous-integration-poli.git # timeout=10
+Fetching upstream changes from https://github.com/andres-romero/continuous-integration-poli.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.36.3'
+ > git fetch --tags --force --progress -- https://github.com/andres-romero/continuous-integration-poli.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 913e23e0ad08361a310060058b9fd08995c6ef3a (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 913e23e0ad08361a310060058b9fd08995c6ef3a # timeout=10
+Commit message: "modificacion readme"
+ > git rev-list --no-walk 2297e347e5e2eb66bea98299c165a7929eda6417 # timeout=10
+Finished: SUCCESS

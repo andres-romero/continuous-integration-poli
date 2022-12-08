@@ -1,0 +1,3 @@
+[filesystem "Eclipse Adoptium|11.0.16.1|drvfs"]
+	timestampResolution = 4469 microseconds
+	minRacyThreshold = 0 nanoseconds
